@@ -1,0 +1,10 @@
+//WAP to make use of minitializeremberwise 
+struct Student {
+    var name:String
+    var age: String
+    var birthdate:String
+}
+let student = Student(name:"Chetan",age:"18",birthdate:"21/07/2003")
+print(student.name)
+print(student.age)
+print(student.birthdate)
